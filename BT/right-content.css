@@ -1,0 +1,49 @@
+.content-down{
+    display: flex;
+}
+
+.avatar{
+    width : 25%
+}
+.col-md-1{
+    width : 35%;
+}
+.col-md-2{
+    width : 50%;
+}
+.chillMainContent{
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    /*font-weight: bold;
+    color: #8c1515;*/
+    vertical-align: middle;
+    line-height: 2em;
+}
+.chillMainContent hr {
+    line-height: 4px;
+    border: 3px solid #FF9900;
+    display: block;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+.MainContenTitle hr{
+    width: 95%;
+    border: 1px solid #EBEDEF;
+}
+
+.header-if {
+    padding-top: 11px;
+    padding-bottom: 5px;
+    color: #8c1515;
+    font-family: "Times New Roman";
+    font-size: 14px;
+    font-weight: bold;
+
+
+}
+.MainContenTitle {
+    text-align: center;
+    color: #8c1515;
+}

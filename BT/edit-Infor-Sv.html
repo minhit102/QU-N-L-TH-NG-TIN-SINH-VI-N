@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit information</title>
+  <link rel="stylesheet" href="edit-Infor-Sv.css">
+  <link rel="stylesheet" href="ctt-hust.css">
+  <link rel="stylesheet" href="right-content.css">
+</head>
+
+<body>
+  <div class="editInfor" style="display: flex;">
+    <div class="left-content">
+      <div class="left-content-infor">
+        <h3>
+          HOÀNG TRỌNG MINH
+        </h3>
+        <ul class="left-content-infor-chill">
+          <li>
+            <a>
+              Thư báo
+            </a>
+            <a>
+              Đổi mật khẩu
+            </a>
+            <a>
+              Cấp lại mật khẩu Email trường
+            </a>
+            <a>
+              Thoát đăng nhập
+            </a>
+            <a>
+              Thông tin mật khẩu Email cấp mới
+            </a>
+            <a>
+              Xác nhận khai báo y tế
+            </a>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+
+      <div class="left-content-infor">
+        <h3>
+          QUẢN LÍ HỒ SƠ SINH VIÊN
+        </h3>
+        <ul class="left-content-infor-chill">
+          <li>
+            <a>
+              Thông tin sinh viên
+            </a>
+            <a>
+              Cập nhật thông tin cá nhân
+            </a>
+            <a>
+              Thông tin lớp sinh viên
+            </a>
+
+          </li>
+
+        </ul>
+
+      </div>
+      <div class="left-content-infor">
+        <h3>
+          ĐÀO TẠO
+        </h3>
+        <ul class="left-content-infor-chill">
+          <li>
+            <a>
+              Chương trình đào tạo
+            </a>
+            <a>
+              Kế hoạch học tập
+            </a>
+            <a>
+              Kết quả học tập
+            </a>
+            <a>
+              Đồ án - Tốt nghiệp
+            </a>
+            <a>
+              Thời khóa biểu tạm thời
+            </a>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+    <div class="container">
+      <h2 style="color: #8c1515;" ;">CHỈNH SỬA THÔNG TIN CÁ NHÂN</h2>
+      <label for="editHoTen">Họ và tên :</label>
+      <input type="text" id="editHoTen" name="editHoTen"><br><br>
+
+
+      <label for="editGioiTinh">Giới tính :</label>
+      <label class="gender-label">
+        <input type="radio" id="html" name="gioi_tinh" value="Nam">
+          <label for="html">Nam</label><br>
+      </label>
+      <label class="gender-label">
+        <input type="radio" id="html" name="gioi_tinh" value="Nữ">
+          <label for="html">Nữ</label><br>
+      </label>
+      <label class="gender-label">
+        <input type="radio" id="html" name="gioi_tinh" value="Khác">
+          <label for="html">Khác</label><br>
+      </label>
+
+
+      <label for="editMSSV">MSSV :</label>
+      <input type="text" id="editMSSV" name="editMSSV"><br><br>
+      <label for="editNamVaoTruong">Năm vào trường : </label>
+      <input type="text" id="editNamVaoTruong" name="editNamVaoTruong"><br><br>
+      <label for="editBacDaoTao">Bậc đào tạo : </label>
+      <input type="text" id="editBacDaoTao" name="editBacDaoTao"><br><br>
+      <label for="editChuongTrinh">Chương trình : </label>
+      <input type="text" id="editChuongTrinh" name="editChuongTrinh"><br><br>
+      <label for="editKhoa">Khoa/Viện quản lí : </label>
+      <input type="text" id="editKhoa" name="editKhoa"><br><br>
+      <label for="editTinhTrangHocTap">Tình trạng học tập : </label>
+      <input type="text" id="editTinhTrangHocTap" name="editTinhTrangHocTap"><br><br>
+      <label for="editLop">Lớp : </label>
+      <input type="text" id="editLop" name="editLop"><br><br>
+      <label for="editKhoaHoc">Khóa học : </label>
+      <input type="text" id="editKhoaHoc" name="editKhoaHoc"><br><br>
+      <label for="editEmail">Email : </label>
+      <input type="text" id="editEmail" name="editEmail"><br><br>
+      <!--<label for="editDanToc">Dân tộc : </label>
+        <input type="text" id="editDanToc" name="editDanToc"><br><br>
+        <label for="editNamTotNghiep">Năm tốt nghiệp cấp 3 : </label>
+        <input type="text" id="editNamTotNghiep" name="editNamTotNghiep"><br><br>
+        <label for="editDiaChi">Địa chỉ : </label>
+        <input type="text" id="editDiaChi" name="editDiaChi"><br><br>
+        <label for="editSoCMTND">Số CMTND : </label>
+        <input type="text" id="editSoCMTND" name="editSoCMTND"><br><br>
+        <label for="editNoiCap">Nơi cấp : </label>
+        <input type="text" id="editNoiCap" name="editNoiCap"><br><br>
+        <hr>
+  
+        <label for="editHoTenBo">Họ tên bố : </label>
+        <input type="text" id="editHoTenBo" name="editHoTenBo"><br><br>
+        <label for="editNamSinhBo">Năm sinh : </label>
+        <input type="text" id="editNamSinhBo" name="editNamSinhBo"><br><br>
+        <label for="editNgheNghiepBo">Nghề nghiệp : </label>
+        <input type="text" id="editNgheNghiepBo" name="editNgheNghiepBo"><br><br>
+        <label for="editDienThoaiBo">Điện thoại : </label>
+        <input type="text" id="editDienThoaiBo" name="editDienThoaiBo"><br><br>
+        <hr>
+  
+        <label for="editHoTenMe">Họ tên mẹ : </label>
+        <input type="text" id="editHoTenMe" name="editHoTenMe"><br><br>
+        <label for="editNamSinhMe">Năm sinh : </label>
+        <input type="text" id="editNamSinhMe" name="editNamSinhMe"><br><br>
+        <label for="editNgheNghiepMe">Nghề nghiệp : </label>
+        <input type="text" id="editNgheNghiepMe" name="editNgheNghiepMe"><br><br>
+        <label for="editDienThoaiMe">Điện thoại : </label>
+        <input type="text" id="editDienThoaiMe" name="editDienThoaiMe"><br><br>-->
+      <div class="actButton">
+        <button class="button button1" onclick="clinkOK()">OK</button>
+        <button class="button button2" onclick="clinkCancle()">Cancle</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+
+    document.getElementById('editHoTen').value = localStorage.getItem('studentHoTen');
+    document.getElementById('editMSSV').value = localStorage.getItem('studentMSSV');
+    document.getElementById('editNamVaoTruong').value = localStorage.getItem('studentNamVaoTruong');
+    document.getElementById('editBacDaoTao').value = localStorage.getItem('studentBacDaoTao');
+    document.getElementById('editChuongTrinh').value = localStorage.getItem('studentChuongTrinh');
+    document.getElementById('editKhoa').value = localStorage.getItem('studentKhoa');
+    document.getElementById('editTinhTrangHocTap').value = localStorage.getItem('studentTinhTrangHocTap');
+
+    document.getElementById('editLop').value = localStorage.getItem('studentLop');
+    document.getElementById('editKhoaHoc').value = localStorage.getItem('studentKhoaHoc');
+    document.getElementById('editEmail').value = localStorage.getItem('studentEmail');
+    /*
+    document.getElementById('editDanToc').value = localStorage.getItem('studentDanToc');
+
+
+    document.getElementById('editNamTotNghiep').value = localStorage.getItem('studentNamTN');
+
+    document.getElementById('editDiaChi').value = localStorage.getItem('studentDiaChi');
+    document.getElementById('editSoCMTND').value = localStorage.getItem('studentSoCMTND');
+    document.getElementById('editNoiCap').value = localStorage.getItem('studentNoiCap');
+
+
+    document.getElementById('editHoTenBo').value = localStorage.getItem('studentHoTenBo');
+    document.getElementById('editNamSinhBo').value = localStorage.getItem('studentNamSinhBo');
+    document.getElementById('editNgheNghiepBo').value = localStorage.getItem('studentNgheNghiepBo');
+    document.getElementById('editDienThoaiBo').value = localStorage.getItem('studentDienThoaiBo');
+
+    document.getElementById('editHoTenMe').value = localStorage.getItem('studentHoTenMe');
+    document.getElementById('editNamSinhMe').value = localStorage.getItem('studentNamSinhMe');
+    document.getElementById('editNgheNghiepMe').value = localStorage.getItem('studentNgheNghiepMe');
+    document.getElementById('editDienThoaiMe').value = localStorage.getItem('studentDienThoaiMe');
+    // Collecting updated information
+    */
+    function clinkOK() {
+      localStorage.setItem('studentHoTen', document.getElementById('editHoTen').value);
+      localStorage.setItem('studentMSSV', document.getElementById('editMSSV').value);
+      localStorage.setItem('studentNamVaoTruong', document.getElementById('editNamVaoTruong').value);
+      localStorage.setItem('studentBacDaoTao', document.getElementById('editBacDaoTao').value);
+      localStorage.setItem('studentChuongTrinh', document.getElementById('editChuongTrinh').value);
+      localStorage.setItem('studentKhoa', document.getElementById('editKhoa').value);
+      localStorage.setItem('studentTinhTrangHocTap', document.getElementById('editTinhTrangHocTap').value);
+
+      localStorage.setItem('studentLop', document.getElementById('editLop').value);
+      localStorage.setItem('studentKhoaHoc', document.getElementById('editKhoaHoc').value);
+      localStorage.setItem('studentEmail', document.getElementById('editEmail').value);
+
+
+      var selectedGender = document.querySelector('input[name="gioi_tinh"]:checked').value;
+      localStorage.setItem('studentGioiTinh', selectedGender);
+
+      window.location.href = 'ctt-hust.html';
+
+
+    }
+    function clinkCancle() {
+      window.location.href = 'ctt-hust.html';
+
+    }
+
+
+
+  </script>
+</body>
+
+</html>

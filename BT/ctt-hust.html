@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CTT HUST</title>
+    <link rel="stylesheet" href="ctt-hust.css">
+    <link rel="stylesheet" href="right-content.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="includeAll">
+        <div class="left-content">
+            <div class="left-content-infor">
+                <h3>
+                    HOÀNG TRỌNG MINH
+                </h3>
+                <ul class="left-content-infor-chill">
+                    <li>
+                        <a>
+                            Thư báo
+                        </a>
+                        <a>
+                            Đổi mật khẩu
+                        </a>
+                        <a>
+                            Cấp lại mật khẩu Email trường
+                        </a>
+                        <a>
+                            Thoát đăng nhập
+                        </a>
+                        <a>
+                            Thông tin mật khẩu Email cấp mới
+                        </a>
+                        <a>
+                            Xác nhận khai báo y tế
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="left-content-infor">
+                <h3>
+                    QUẢN LÍ HỒ SƠ SINH VIÊN
+                </h3>
+                <ul class="left-content-infor-chill">
+                    <li>
+                        <a>
+                            Thông tin sinh viên
+                        </a>
+                        <a>
+                            Cập nhật thông tin cá nhân
+                        </a>
+                        <a>
+                            Thông tin lớp sinh viên
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+            <div class="left-content-infor">
+                <h3>
+                    ĐÀO TẠO
+                </h3>
+                <ul class="left-content-infor-chill">
+                    <li>
+                        <a>
+                            Chương trình đào tạo
+                        </a>
+                        <a>
+                            Kế hoạch học tập
+                        </a>
+                        <a>
+                            Kết quả học tập
+                        </a>
+                        <a>
+                            Đồ án - Tốt nghiệp
+                        </a>
+                        <a>
+                            Thời khóa biểu tạm thời
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+        <div class="right-content">
+            <div class="MainContenTitle">
+                <h3>
+                    THÔNG TIN CÁ NHÂN
+                </h3>
+                <hr>
+            </div>
+            <div class="MainContent">
+                <div class="chillMainContent">
+
+                    <div class="button-edit-header" style="display: flex;">
+                        <div class="header-if">
+                            THÔNG TIN SINH VIÊN
+                        </div>
+                        <button class="icon-button" onclick="editInfor()">
+                            <i class="fa-regular fa-pen-to-square"></i>
+                        </button>
+
+
+                    </div>
+
+                    <hr>
+                    <div class="content-down">
+                        <div class="avatar";>
+                            <div class = "img-avatar" style = "margin-left: 50px;">
+                                <img src = "./anhDaiDien.png" style = "height: 220px ; width: 160px; margin-top: 20px;filter: drop-shadow(10px 10px 10px #BFC9CA);">
+
+
+                            </div>
+                            <div style = "margin-left: 50px;">
+                                <span>
+                                    <strong>MSSV&emsp;: </strong><span id="MSSV">20215427</span><br>
+                                </span>
+                            </div>
+
+                        </div>
+                        <div class="col-md-1">
+                            <span>
+                                <strong>Họ và tên&emsp;: </strong><span id="HoTen">Hoàng Trọng Minh</span><br>
+                                <strong>Năm vào trường&emsp;: </strong> <span id="NamVaoTruong">2021</span> <br>
+                                <strong>Bậc đào tạo&emsp;: </strong><span id="BacDaoTao">Đại học đại trà </span><br>
+                                <strong>Chương trình&emsp;: </strong><span id="ChuongTrinh">Khoa học máy tính</span><br>
+                                <strong>Khoa/Viện quản lí&emsp;: </strong><span id="Khoa">Trường Công nghệ thông tin và
+                                    Truyền thông</span><br>
+                                <strong>Tình trạng học tập&emsp;: </strong><span id="TinhTrangHocTap">Học</span><br>
+                            </span>
+                        </div>
+                        <div class="col-md-1">
+                            <span>
+                                <strong>Giới tính&emsp;: </strong><span id="GioiTinh">Nam</span><br>
+                                <strong>Lớp&emsp;: </strong><span id="Lop">Khoa học máy tính 02 Khóa 66</span><br>
+                                <strong>Khóa học&emsp;: </strong><span id="KhoaHoc">2021</span><br>
+                                <strong>Email&emsp;: </strong><span id="Email">minhhoangtrong1002@gmail.com</span><br>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="chillMainContent">
+                    <div class="header-if">
+                        THÔNG TIN HỌC TẬP
+                    </div>
+                    <hr>
+                    <div class="content-down">
+                        <div class="col-md-2">
+                            <span>
+                                <strong>Tổng kết học kì&emsp;: </strong>20231<br>
+                                <strong>Trung bình tích lũy&emsp;: </strong>0 <br>
+                                <strong>Số TC nợ đăng ký&emsp;: </strong>0<br>
+
+                            </span>
+                        </div>
+                        <div class="col-md-2">
+                            <span>
+                                <strong>Số TC tích lũy&emsp;: </strong>85<br>
+                                <strong>Trình độ sinh viên&emsp;: </strong>3<br>
+                                <strong>Mức cảnh cáo&emsp;: </strong>M0<br>
+
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="chillMainContent">
+                    <hr>
+                    <div class="content-down">
+                        <div class="col-md-2">
+                            <span>
+                                <strong>Dân tộc&emsp;: </strong><span id="DanToc">Kinh</span><br>
+                                <strong>Năm TN cấp 3&emsp;: </strong><span id="NamTN">2021</span> <br>
+                                <strong>Địa chỉ&emsp;: </strong><span id="DiaChi">Xã Sơn Lộc, huyện Can Lộc, tỉnh Hà Tĩnh</span><br>
+                                <strong>Số CMTND&emsp;: </strong><span id="SoCMTND">042203000973</span><br>
+                                <strong>Nơi cấp&emsp;: </strong><span id="NoiCap">Hà Tĩnh</span><br>
+                                <strong>Họ tên bố&emsp;: </strong><span id="HoTenBo">Hoàng Trọng Quang</span><br>
+                                <strong>Năm sinh&emsp;: </strong><span id="NamSinhBo">1971</span><br>
+                                <strong>Nghề nghiệp&emsp;: </strong><span id="NgheNghiepBo">Làm ruộng</span><br>
+                                <strong>Điện thoại&emsp;: </strong><span id="DienThoaiBo">0366470000</span><br>
+                                <strong>Email&emsp;: </strong><span id="EmailBo">hoangtrongquang@gmail.com</span> <br>
+                            </span>
+                        </div>
+                        <div class="col-md-2">
+                            <span>
+                                <strong>Tôn giáo&emsp;: </strong><span id="TonGiao">Kinh</span><br>
+                                <strong>Trường THPT&emsp;: </strong><span id="TruongTHPT">THPT Đồng Lộc</span><br>
+                                <strong>Hộ khẩu&emsp;: </strong><span id="HoKhau">Sơn Lộc - Can Lộc - Hà Tĩnh</span><br>
+                                <strong>Số điện thoại&emsp;: </strong><span id="SoDienThoai">0357673200</span><br>
+                                <strong>Họ tên mẹ&emsp;: </strong><span id="HoTenMe">Nguyễn Thị Thúy</span><br>
+                                <strong>Năm sinh&emsp;: </strong><span id="NamSinhMe">1981</span><br>
+                                <strong>Nghề nghiệp&emsp;: </strong><span id="NgheNghiepMe">Làm ruộng</span><br>
+                                <strong>Điện thoại&emsp;: </strong><span id="DienThoaiMe">0353578789</span><br>
+                                <strong>Email&emsp;: </strong><span id="EmailMe">nguyenthuy@gmail.com</span><br>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+
+
+        //function updateInfor() {
+
+            
+
+            /*
+            document.getElementById('DanToc').innerText = localStorage.getItem('studentDanToc');
+            document.getElementById('NamTN').innerText = localStorage.getItem('studentNamTN');
+            document.getElementById('DiaChi').innerText = localStorage.getItem('studentDiaChi');
+            document.getElementById('SoCMTND').innerText = localStorage.getItem('studentSoCMTND');
+            document.getElementById('NoiCap').innerText = localStorage.getItem('studentNoiCap');
+
+
+
+            document.getElementById('TonGiao').innerText = localStorage.getItem('studentTonGiao');
+            document.getElementById('TruongTHPT').innerText = localStorage.getItem('studentTruongTHPT');
+            document.getElementById('HoKhau').innerText = localStorage.getItem('studentHoKhau');
+
+            document.getElementById('HoTenMe').innerText = localStorage.getItem('studentHoTenMe');
+            document.getElementById('NamSinhMe').innerText = localStorage.getItem('studentNamSinhMe');
+            document.getElementById('NgheNghiepMe').innerText = localStorage.getItem('studentNgheNghiepMe');
+            document.getElementById('DienThoaiMe').innerText = localStorage.getItem('studentDienThoaiMe');
+            document.getElementById('EmailMe').innerText = localStorage.getItem('studentEmailMe');
+
+
+
+            document.getElementById('HoTenBo').innerText = localStorage.getItem('studentHoTenBo');
+            document.getElementById('NamSinhBo').innerText = localStorage.getItem('studentNamSinhBo');
+            document.getElementById('NgheNghiepBo').innerText = localStorage.getItem('studentNgheNghiepBo');
+            document.getElementById('DienThoaiBo').innerText = localStorage.getItem('studentDienThoaiBo');
+            document.getElementById('EmailBo').innerText = localStorage.getItem('studentEmailBo');
+
+            window.location.href = 'ctt-hust.html';*/
+        //}
+
+        function editInfor() {
+            // Lưu thông tin của học sinh vào localStorage
+
+
+            localStorage.setItem('studentHoTen', document.getElementById('HoTen').innerText);
+            localStorage.setItem('studentMSSV', document.getElementById('MSSV').innerText);
+            localStorage.setItem('studentNamVaoTruong', document.getElementById('NamVaoTruong').innerText);
+            localStorage.setItem('studentBacDaoTao', document.getElementById('BacDaoTao').innerText);
+            localStorage.setItem('studentChuongTrinh', document.getElementById('ChuongTrinh').innerText);
+            localStorage.setItem('studentKhoa', document.getElementById('Khoa').innerText);
+            localStorage.setItem('studentTinhTrangHocTap', document.getElementById('TinhTrangHocTap').innerText);
+            localStorage.setItem('studentGioiTinh', document.getElementById('GioiTinh').innerText);
+            localStorage.setItem('studentLop', document.getElementById('Lop').innerText);
+            localStorage.setItem('studentKhoaHoc', document.getElementById('KhoaHoc').innerText);
+            localStorage.setItem('studentEmail', document.getElementById('Email').innerText); 
+            /*localStorage.setItem('studentDanToc', document.getElementById('DanToc').innerText);
+            localStorage.setItem('studentNamTN', document.getElementById('NamTN').innerText);
+            localStorage.setItem('studentDiaChi', document.getElementById('DiaChi').innerText);
+            localStorage.setItem('studentSoCMTND', document.getElementById('SoCMTND').innerText);
+            localStorage.setItem('studentNoiCap', document.getElementById('NoiCap').innerText);
+
+
+            localStorage.setItem('studentTonGiao', document.getElementById('TonGiao').innerText);
+            localStorage.setItem('studentTruongTHPT', document.getElementById('TruongTHPT').innerText);
+            localStorage.setItem('studentHoKhau', document.getElementById('HoKhau').innerText);
+
+
+            localStorage.setItem('studentHoTenMe', document.getElementById('HoTenMe').innerText);
+            localStorage.setItem('studentNamSinhMe', document.getElementById('NamSinhMe').innerText);
+            localStorage.setItem('studentNgheNghiepMe', document.getElementById('NgheNghiepMe').innerText);
+            localStorage.setItem('studentDienThoaiMe', document.getElementById('DienThoaiMe').innerText);
+            localStorage.setItem('studentEmailMe', document.getElementById('EmailMe').innerText);
+
+            localStorage.setItem('studentHoTenBo', document.getElementById('HoTenBo').innerText);
+            localStorage.setItem('studentNamSinhBo', document.getElementById('NamSinhBo').innerText);
+            localStorage.setItem('studentNgheNghiepBo', document.getElementById('NgheNghiepBo').innerText);
+            localStorage.setItem('studentDienThoaiBo', document.getElementById('DienThoaiBo').innerText);
+            localStorage.setItem('studentEmailBo', document.getElementById('EmailBo').innerText);*/
+
+            window.location.href = 'edit-Infor-Sv.html';
+        }
+
+
+
+            document.getElementById('HoTen').innerText = localStorage.getItem('studentHoTen');
+            document.getElementById('MSSV').innerText = localStorage.getItem('studentMSSV');
+            document.getElementById('NamVaoTruong').innerText = localStorage.getItem('studentNamVaoTruong');
+            document.getElementById('BacDaoTao').innerText = localStorage.getItem('studentBacDaoTao');
+            document.getElementById('ChuongTrinh').innerText = localStorage.getItem('studentChuongTrinh');
+            document.getElementById('Khoa').innerText = localStorage.getItem('studentKhoa');
+            document.getElementById('TinhTrangHocTap').innerText = localStorage.getItem('studentTinhTrangHocTap');
+
+            document.getElementById('GioiTinh').innerText = localStorage.getItem('studentGioiTinh');
+            document.getElementById('Lop').innerText = localStorage.getItem('studentLop');
+            document.getElementById('KhoaHoc').innerText = localStorage.getItem('studentKhoaHoc');
+            document.getElementById('Email').innerText = localStorage.getItem('studentEmail');
+
+    </script>
+
+</body>
+
+</html>
